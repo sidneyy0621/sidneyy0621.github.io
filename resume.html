@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="CV.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;500;600;700&family=Noto+Sans+TC:wght@900&family=Rubik+Doodle+Shadow&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Kalnia:wght@100;500;600;700&family=Noto+Sans+TC:wght@900&family=Rubik+Doodle+Shadow&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Kalnia:wght@100;500;600;700&family=Noto+Sans+TC:wght@900&family=Noto+Serif+TC:wght@500&family=Rubik+Doodle+Shadow&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<style>
+    /* CV框 */
+#container_leftright{
+    width:600px; height:800px; border:3px double rgb(0, 0, 0);
+    display:flex; 
+    flex-direction:row; /*設定版面方向 */
+    margin: auto;  /*版面置中*/
+}
+/* 左右 */
+#left{
+    flex: 4;
+    background-color: #607274;
+    width:200px;
+    padding: 16px;
+    
+}
+#right{
+    flex: 5; 
+    background-color: #FAEED1;
+    width:400px;
+    padding: 15px;
+    font-family: 'Cormorant Garamond';
+}
+
+body{
+    padding:20px;
+    display: flex;
+    
+}
+
+
+
+#img1{
+    border-style: inset;
+    border-width: 4px;
+    border-radius: 50px; /*邊框圓角*/
+    box-shadow: #B2A59B 10px 10px 10px ; /*框框陰影*/
+    
+    
+}
+#name{
+    text-align: center;
+    /* text-shadow:-5px -5px 5px 10px rgb(219, 204, 186); */
+    /* font-style: 'Kalnia'; */
+    font-family: 'Rubik Doodle Shadow';
+}
+
+#mailphonelocation_icon{
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center; /*在水平方向置中 */
+    /*align-items: center; /* 在垂直方向置中 */
+    
+    
+}
+#icon{
+    margin: 10px;
+    
+}
+#line1{
+    width:6cm; border: 2.5px dashed #96aeb0;
+}
+
+/* 網格 */
+#container1{
+    display:grid; /*建立網格排版*/
+    grid-template-columns: 50px 50px  ; /*網格寬度 */
+    grid-template-rows: 70px 30px  ; /*網格高度*/
+    gap: 60px; /*網格間距  */
+    
+    margin: 0px 13px 0px; 
+    
+}
+#item1{
+    width:50px; height: 50px;
+    background-color:#FAEED1;
+    border-radius: 10px; /*邊框圓角*/
+    box-shadow: #B2A59B 3px 5px 10px ; /*框陰影*/
+    padding: 25px;
+    text-align: center;
+}
+
+/* 笑話 目標虛擬類別 */
+:target{
+    background-color: #DED0B6;
+}
+
+
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+/* 滑鼠經過 */
+a:hover{ 
+    color: #607274;
+    background-color: #DED0B6;
+} 
+a:active{
+    color: #B2A59B;
+}
+
+
+
+</style>
+</head>
+<body>
+<div id="container_leftright">
+<!-- 左半 -->
+<div id="left">
+    <!-- CSS圖片圓角 -->
+    <img id="img1" src="https://cdn.bella.tw/index_image/QCkWEallEQ33VEr0ToMSGmG65rMnaHj54JXpV9fN.jpeg" width="220" height="220">
+    <h1 id="name">陳韋均</h1>
+    <h2 id="name">chen wei-chun</h2>
+        
+    <!-- CSS社群照片超連結 -->
+    <div id="mailphonelocation_icon">
+        <a id="icon" href="mailto:C112156210@nkust.edu.tw?cc=C112156210@nkust.edu.tw&bcc=C112156210@nkust.edu.tw&subject=非常重要的事&body=教授(助教)好：%0D%0A履歷右半部是送教授您的笑話，希望下次你在講笑話的時候可以參考一下。%0D%0A%0D%0A祝您身體健康，闔家平安%0D%0Aps.教授你的兒子很可愛耶">
+            <img src="https://cdn-icons-png.flaticon.com/128/542/542689.png" width="40" height="40" alt="email">
+        </a>
+        <a id="icon" href="tel:+886900000000">
+            <img src="https://cdn-icons-png.flaticon.com/128/597/597177.png" width="40" height="40" alt="phone">
+        </a>
+        <a id="icon" href="https://maps.app.goo.gl/jGQTEf4CLuofrPBh6">
+            <img src="https://cdn-icons-png.flaticon.com/128/447/447031.png" width="40" height="40" alt="google map">
+        </a>    
+    </div>
+
+    <!-- 線 -->
+    <div id="line1"></div>
+    <h2>檢定證照</h2>
+    <ul>
+        <li>
+            電腦軟體 丙級
+        </li>
+        <li>
+            電腦軟體 乙級(學科)
+        </li>
+        <li>
+            會計事務－人工 丙級
+        </li>
+        <li>
+            會計事務－資訊 丙級
+        </li>
+        <li>
+            商業管理能力檢定 二級
+        </li>
+        <li>
+            TQC中打輸入 實用級
+        </li>
+        
+    </ul>
+    <br>
+    
+    <!-- 區塊 網格 -->
+    <div id="container1">
+        <div id="item1">高科大<br>智慧商務系</div>
+        <div id="item1">
+            <a href="https://ic.nkust.edu.tw/">
+                <img src="https://www.nkust.edu.tw/var/file/0/1000/img/513/176957439.png" width="70" height="70">
+            </a>
+        </div>
+        
+    </div> 
+
+      
+</div>
+
+<!-- 右半 -->
+<div id="right">
+    <h2>我的笑話</h2>
+    <ol>
+        <li>
+            <p><a href='#Q1'>為什麼宋朝人都沒有外送?</a></p>
+        </li>
+        <li>
+            <p><a href='#Q2'>天氣很冷可以靠我肩膀</a></p>
+        </li>
+        <li>
+            <p><a href='#Q3'>為什麼寫數學前要先吃飯？</a></p>
+        </li>
+        <li>
+            <p><a href='#Q4'>什麼東西會卡在肺裡面？</a></p>
+        </li>
+        <li>
+            <p><a href='#Q5'>有100個笑話跌到山谷裡，96個死了，4個被你救活了，猜一句話。</a></p>
+        </li>
+    </ol>
+    <h2>笑話答案</h2>
+    <ol>
+        <li>
+            <p id="Q1">因為很多都是契丹(棄單)人</p>
+        </li>
+        <li>
+            <p id="Q2">因為我的肩膀是shoulder(熱的)</p>
+        </li>
+        <li>
+            <p id="Q3">因為這樣才有範例(飯粒)</p>
+        </li>
+        <li>
+            <p id="Q4">City cafe</p>
+        </li>
+        <li>
+            <p id="Q5">你救4(就是)個笑話。</p>
+        </li>
+    </ol>
+    
+    <h2>專業技能</h2>
+    <ul>
+        <!-- CSS照片 -->
+        <li>
+            HTML
+        </li>
+        <li>
+            CSS
+        </li>
+        <li>
+            JavaScript
+        </li>
+        <li>
+            Python
+        </li>
+        <li>
+            Access
+        </li>
+        <li>
+            Word
+        </li>
+        <li>
+            Excel
+        </li>
+        <li>
+            PowerPoint
+        </li>
+    </ul>
+
+    
+</div>
+</div>  
+</body>
+</html>
