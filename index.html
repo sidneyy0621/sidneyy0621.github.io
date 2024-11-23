@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="CV2.css" />
+<link rel="stylesheet" href="CV.css" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,110 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Kalnia:wght@100;500;600;700&family=Noto+Sans+TC:wght@900&family=Noto+Serif+TC:wght@500&family=Rubik+Doodle+Shadow&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<style>
+    /* CV框 */
+#container_leftright{
+    width:600px; height:800px; border:3px double rgb(0, 0, 0);
+    display:flex; 
+    flex-direction:row; /*設定版面方向 */
+    margin: auto;  /*版面置中*/
+}
+/* 左右 */
+#left{
+    flex: 4;
+    background-color: #607274;
+    width:200px;
+    padding: 16px;
+    
+}
+#right{
+    flex: 5; 
+    background-color: #FAEED1;
+    width:400px;
+    padding: 15px;
+    font-family: 'Cormorant Garamond';
+}
 
+body{
+    padding:20px;
+    display: flex;
+    
+}
+
+
+
+#img1{
+    border-style: inset;
+    border-width: 4px;
+    border-radius: 50px; /*邊框圓角*/
+    box-shadow: #B2A59B 10px 10px 10px ; /*框框陰影*/
+    
+    
+}
+#name{
+    text-align: center;
+    /* text-shadow:-5px -5px 5px 10px rgb(219, 204, 186); */
+    /* font-style: 'Kalnia'; */
+    font-family: 'Rubik Doodle Shadow';
+}
+
+#mailphonelocation_icon{
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center; /*在水平方向置中 */
+    /*align-items: center; /* 在垂直方向置中 */
+    
+    
+}
+#icon{
+    margin: 10px;
+    
+}
+#line1{
+    width:6cm; border: 2.5px dashed #96aeb0;
+}
+
+/* 網格 */
+#container1{
+    display:grid; /*建立網格排版*/
+    grid-template-columns: 50px 50px  ; /*網格寬度 */
+    grid-template-rows: 70px 30px  ; /*網格高度*/
+    gap: 60px; /*網格間距  */
+    
+    margin: 0px 13px 0px; 
+    
+}
+#item1{
+    width:50px; height: 50px;
+    background-color:#FAEED1;
+    border-radius: 10px; /*邊框圓角*/
+    box-shadow: #B2A59B 3px 5px 10px ; /*框陰影*/
+    padding: 25px;
+    text-align: center;
+}
+
+/* 笑話 目標虛擬類別 */
+:target{
+    background-color: #DED0B6;
+}
+
+
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+/* 滑鼠經過 */
+a:hover{ 
+    color: #607274;
+    background-color: #DED0B6;
+} 
+a:active{
+    color: #B2A59B;
+}
+
+
+
+</style>
 </head>
 <body>
 <div id="container_leftright">
